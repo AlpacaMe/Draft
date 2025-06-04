@@ -1,68 +1,109 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.3">
   <diagram name="第 1 页" id="F2-SKgdABRe445PUrhpk">
-    <mxGraphModel dx="984" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JD8Nl8c0ysSWvw6nPowg-1" value="会话A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="580" y="380" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-8" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="690" y="420" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JD8Nl8c0ysSWvw6nPowg-2" value="会话B" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="900" y="380" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-10" target="2lTEQmjzz5ShgXORFhZ_-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="JD8Nl8c0ysSWvw6nPowg-3" value="时刻" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="550" y="380" width="30" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-10" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JD8Nl8c0ysSWvw6nPowg-4" value="SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="640" y="270" width="320" height="60" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-11" target="2lTEQmjzz5ShgXORFhZ_-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JD8Nl8c0ysSWvw6nPowg-8" value="START TRANSACTION;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="960" y="270" width="320" height="60" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-11" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-5" value="SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="410" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-13" target="2lTEQmjzz5ShgXORFhZ_-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-6" value="SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="900" y="410" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-13" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="690" y="510" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-7" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="410" width="30" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-14" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="690" y="540" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-8" value="START TRANSACTION;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="440" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-15" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="310" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-9" value="START TRANSACTION;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="900" y="440" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-16" target="2lTEQmjzz5ShgXORFhZ_-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-10" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="440" width="30" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-16" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="340" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-11" value="select * from t where a &amp;gt; 2 for update;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="470" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-19" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="370" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="900" y="470" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-20" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="450" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-13" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="470" width="30" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-21" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="480" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="500" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-23" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="510" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-15" value="insert into t select 4;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="900" y="500" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-24" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="570" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-16" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="500" width="30" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-25" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="600" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-17" value="select * from t where a &amp;gt; 2 for update;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="580" y="530" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-26" target="2lTEQmjzz5ShgXORFhZ_-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="900" y="530" width="320" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-26" target="2lTEQmjzz5ShgXORFhZ_-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8KpNYx9_Xu6nkI2TWmH0-19" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="530" width="30" height="30" as="geometry" />
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-26" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-27" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-31" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-32" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-34" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-35" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-36" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-38" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-44" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-45" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-46" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-48" value="顶层事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-49" value="子事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2lTEQmjzz5ShgXORFhZ_-50" value="子事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="270" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
