@@ -1,109 +1,92 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.3">
   <diagram name="第 1 页" id="F2-SKgdABRe445PUrhpk">
-    <mxGraphModel dx="1181" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-8" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="690" y="420" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-29" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="800" y="400" width="520" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-10" target="2lTEQmjzz5ShgXORFhZ_-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="880" y="360" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-1" value="Log File Header" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="840" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-10" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="690" y="450" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-2" value="CP1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="880" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-11" target="2lTEQmjzz5ShgXORFhZ_-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="920" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-11" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="690" y="480" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-4" value="CP2" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="960" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-13" target="2lTEQmjzz5ShgXORFhZ_-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-5" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-13" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="690" y="510" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-12" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-14" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="690" y="540" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-13" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-15" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="310" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-14" value="······" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-16" target="2lTEQmjzz5ShgXORFhZ_-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-15" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-16" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="340" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-16" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-19" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="370" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-17" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="440" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-20" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="450" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="840" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-21" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="480" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="880" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-23" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="510" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="920" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-24" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="570" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="960" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-25" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="600" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-22" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-26" target="2lTEQmjzz5ShgXORFhZ_-36">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-23" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2lTEQmjzz5ShgXORFhZ_-26" target="2lTEQmjzz5ShgXORFhZ_-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-24" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-26" value="调用子事务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="630" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-25" value="······" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-27" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="880" y="660" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-26" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-31" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="660" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-27" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-32" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="690" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-28" value="Log Block" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="510" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-34" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="720" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-30" value="Log Grouop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-35" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="510" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-31" value="Redo log file1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="840" y="420" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-36" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="540" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-32" value="Redo log file2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="840" y="490" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-38" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="570" width="120" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-33" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="852.5" y="542.5" width="15" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-44" value="&lt;div&gt;START TRANSACTION;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="310" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-45" value="······" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="340" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-46" value="&lt;div&gt;COMMIT;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="370" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-48" value="顶层事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-49" value="子事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2lTEQmjzz5ShgXORFhZ_-50" value="子事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="270" width="60" height="30" as="geometry" />
+        <mxCell id="4LRs0j6Pg4Pyx-bveehT-34" value="512KB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="830" y="570" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
