@@ -85,7 +85,7 @@
         <mxCell id="vGOMXN_bqBhnKq700v6o-28" value="轻重量级锁" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=light-dark(#000000, #446e2c);" vertex="1" parent="1">
           <mxGeometry x="600" y="480" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vGOMXN_bqBhnKq700v6o-29" value="指向占中锁记录的指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=light-dark(#000000, #446e2c);" vertex="1" parent="1">
+        <mxCell id="vGOMXN_bqBhnKq700v6o-29" value="指向栈中锁记录的指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=light-dark(#000000, #446e2c);" vertex="1" parent="1">
           <mxGeometry x="720" y="480" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vGOMXN_bqBhnKq700v6o-33" value="00" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=light-dark(#000000, #446e2c);" vertex="1" parent="1">
