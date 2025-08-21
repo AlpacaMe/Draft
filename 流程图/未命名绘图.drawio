@@ -1,77 +1,67 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
-  <diagram name="第 1 页" id="pDh1MaaMRWO0j-szB_NV">
-    <mxGraphModel dx="1588" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="第 1 页" id="plUaFS9NUgA_9epzH9hu">
+    <mxGraphModel dx="1810" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="470" width="290" height="390" as="geometry" />
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-1" value="webchat-sso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" vertex="1" parent="1">
+          <mxGeometry y="190" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-1" target="ddrYuGQ9klJX5eJ3XwgI-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="48be8G6DEE9yr2AwRXRZ-1">
+          <mxGeometry x="45" y="100" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="490" width="80" height="30" as="geometry" />
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-2" value="webchat-chat" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="190" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-2" target="ddrYuGQ9klJX5eJ3XwgI-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="48be8G6DEE9yr2AwRXRZ-2">
+          <mxGeometry x="45" y="60" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-14" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ddrYuGQ9klJX5eJ3XwgI-5">
-          <mxGeometry x="-0.1257" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="48be8G6DEE9yr2AwRXRZ-2">
+          <mxGeometry x="45" y="140" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-2" target="ddrYuGQ9klJX5eJ3XwgI-9">
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-3" value="webchat-chat" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=30;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="48be8G6DEE9yr2AwRXRZ-3">
+          <mxGeometry x="45" y="80" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="48be8G6DEE9yr2AwRXRZ-3">
+          <mxGeometry x="45" y="120" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-423" y="200" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="48be8G6DEE9yr2AwRXRZ-7">
+          <mxGeometry x="5" y="50" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="48be8G6DEE9yr2AwRXRZ-8" target="48be8G6DEE9yr2AwRXRZ-4">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-185" y="585" />
-              <mxPoint x="-185" y="825" />
-            </Array>
+            <mxPoint x="-290" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-13" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ddrYuGQ9klJX5eJ3XwgI-11">
-          <mxGeometry x="0.0625" y="-1" relative="1" as="geometry">
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-20" value="1.直接访问wechat-front-chat界面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="48be8G6DEE9yr2AwRXRZ-9">
+          <mxGeometry x="-0.0617" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-2" value="用户存在？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-155" y="560" width="120" height="50" as="geometry" />
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="48be8G6DEE9yr2AwRXRZ-4" target="48be8G6DEE9yr2AwRXRZ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="254.85714285714278" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-4" target="ddrYuGQ9klJX5eJ3XwgI-7">
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="48be8G6DEE9yr2AwRXRZ-10" target="48be8G6DEE9yr2AwRXRZ-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-4" value="生成Token缓存在Redis中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="660" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-7" target="ddrYuGQ9klJX5eJ3XwgI-9">
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;dashPattern=8 8;" edge="1" parent="1" source="48be8G6DEE9yr2AwRXRZ-12" target="48be8G6DEE9yr2AwRXRZ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-7" value="向响应头中写入Cookie" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="740" width="90" height="30" as="geometry" />
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="48be8G6DEE9yr2AwRXRZ-14" target="48be8G6DEE9yr2AwRXRZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="334.8571428571428" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-9" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="810" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-16" value="登录流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-225" y="490" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="470" width="290" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-18" target="ddrYuGQ9klJX5eJ3XwgI-22">
+        <mxCell id="48be8G6DEE9yr2AwRXRZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;dashPattern=8 8;" edge="1" parent="1" source="48be8G6DEE9yr2AwRXRZ-17" target="48be8G6DEE9yr2AwRXRZ-8">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-18" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="165" y="500" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddrYuGQ9klJX5eJ3XwgI-22" target="ddrYuGQ9klJX5eJ3XwgI-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-22" value="获取请求头的Cookie信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="160" y="580" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ddrYuGQ9klJX5eJ3XwgI-24" value="根据Cookie中的token从Redis获取到userId" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="155" y="670" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
